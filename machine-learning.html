@@ -4,44 +4,75 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Machine-Learning </title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Machine Learning</title>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
+  <!-- Vendor CSS -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
+  <!-- Main CSS -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <style>
+    /* Scroll top button fix */
+    .scroll-top {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      width: 44px;
+      height: 44px;
+      background: #0d6efd;
+      border-radius: 50%;
+      z-index: 99999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    /* PDF icon hover */
+    .pdf-link i {
+      transition: transform 0.2s;
+    }
+
+    .pdf-link i:hover {
+      transform: scale(1.2);
+    }
+
+    /* Modal iframe */
+    .modal-body iframe {
+      width: 100%;
+      height: 80vh;
+    }
+  </style>
 </head>
 
-<body class="portfolio-page">
+<body class="resume-page">
 
-  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+ <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">Sandeep</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
-        <ul>
+       <ul>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="academic_profile.html">Academic Profile</a></li>
@@ -63,154 +94,166 @@
   </header>
 
 
-<!-- Teaching Section -->
-<section id="teaching" class="teaching section">
-  <div class="container section-title" data-aos="fade-up">
-    <h2>18B1WCI634 / 18B11BI611: Machine Learning</h2>
-<p><em>This course will introduce fundamental concepts of machine learning</em></p>
-  </div>
-
-
-<div class="container" data-aos="fade-up" data-aos-delay="100">
-  <div class="Semester-item">
-    <h4>Class Schedule</h4>
-    <hr class="schedule-line">
-
-    <ul style="list-style-type: disc; padding-left: 20px;">
-
-      <!-- Existing Monday -->
-      <li style="margin-bottom: 16px;">
-        <strong>Batches:</strong> 23I11, 23I12, 23J12, 23K11, 23C11, 23BM11, 23F11<br>
-        <strong>Day & Time:</strong> Monday: 14:00 – 15:00 (LT-2) | Tuesday: 14:00 – 15:00 (LT-3) <br>
-      </li>
- 
-      <li style="margin-bottom: 12px;">
-        <strong>Batches:</strong> 23A17, 23A18, 23A19<br>
-        <strong>Day & Time:</strong> Friday: 14:00 – 15:00 (CR-2 )| Saturday: 10:00 – 11:00 (CR-9)<br>
-     
-      </li>
-
-    </ul>
-  </div>
-</div>
 
 
 
 
 
 
-<div class="container" data-aos="fade-up" data-aos-delay="100">
-  <div class="Semester-item">
-    <h4>Instructors</h4>
-    <hr class="schedule-line">
-    <ul style="list-style-type: disc; padding-left: 20px;">
-      
-      <li style="margin-bottom: 12px;">
-        <strong>Dr. Kushal Kanwar</strong> <em>(KLK)</em>
-      </li>
+  <!-- Main -->
+  <main id="main">
 
-      <li>
-        <strong>Mr. Sandeep Kumar Patel</strong> <em>(SKP)</em>
-      </li>
-
-    </ul>
-  </div>
-</div>
-
-
-
-
-<div class="container" data-aos="fade-up" data-aos-delay="100">
-  <div class="Semester-item">
-    <h4>Syllabus</h4>
-    <hr class="schedule-line">
-    <p>
-      This is a <strong> 2-0-0</strong> <em>(L–T–P)</em> course. </br>
-    <p> <strong> Syllabus will be follows as:</strong> Machine Learning Theoretical Foundations, PAC Learning , Rademacher Complexity and VC-Dimension, supervised Learning, Bayesian Decision Theory, Decision Tree Learning, Support Vector Machine, Unsupervised Learning. <a href="assets/pdf/18B1WCI634_Machine_Learning/ML_Syllabus.pdf"  download style="text-decoration: underline;" > pdf </a> 
-    </p> 
-  </div>
-</div> 
-
-
-<div class="container" data-aos="fade-up" data-aos-delay="100">
-  <div class="Semester-item">
-    <h4>Text Books</h4>
-    <hr class="schedule-line">
-    <ol style="padding-left: 20px;">
-      <li style="margin-bottom: 8px;">
-        Tom M. Mitchell, <em>Machine Learning</em>, McGraw-Hill, 1997. ISBN: 0070428077.
-      </li>
-      <li style="margin-bottom: 8px;">
-        Ethem Alpaydin, <em>Introduction to Machine Learning</em>, 2nd Edition, MIT Press.
-      </li>
-      <li>
-        Mehryar Mohri, Afshin Rostamizadeh, and Ameet Talwalkar,
-        <em>Foundations of Machine Learning</em>, 2nd Edition, MIT Press.
-      </li>
-    </ol>
-
-  </div>
-</div>
-
-   
-<div class="container" data-aos="fade-up" data-aos-delay="100">
-  <div class="Semester-item">
-    <h4>Lecture Schedule</h4>
-    <hr class="schedule-line">
-    <table class="table table-bordered">
-      <thead>
-        <tr>
-          <th>Topic</th>
-          <th>Slides</th>
-        </tr>
-      </thead>
-      <tbody>
-	<tr>
-          <td>Machine Learning Marking Scheme </td>
-          <td><a href="assets/pdf/18B1WCI634_Machine_Learning/Machine_learning_Marking_Scheme.pdf" class="pdf-link" download download style="text-decoration: underline;">pdf</a></td>
-        </tr>
-
-        <tr>
-          <td>Machine Learning Theoritical Foundations </td>
-          <td><a href="assets/pdf/18B1WCI634_Machine_Learning/Machine_learning_Unit_1.pdf" class="pdf-link" download download style="text-decoration: underline;">pdf</a></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-
-  </main>
-
-  <footer id="footer" class="footer light-background">
-    <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Sandeep</strong> <span>All Rights Reserved<br></span></p>
+    <!-- Course Info -->
+    <section id="teaching" class="teaching section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>18B1WCI634 / 18B11BI611: Machine Learning</h2>
+        <p><em>This course will introduce fundamental concepts of machine learning.</em></p>
       </div>
-      <div class="social-links d-flex justify-content-center">
-      <a href="https://github.com/SandeepPatel95/" class="github"><i class="bi bi-github"></i></a>
-  <a href="http://linkedin.com/in/sandeeppatel95" class="linkedin"><i class="bi bi-linkedin"></i></a>
-  <a href="https://twitter.com/__sandeep_patel" class="twitter"><i class="bi bi-twitter-x"></i></a>
-  <a href="https://scholar.google.com/citations?user=f-tIJ7EAAAAJ&hl=en&oi=sra" class="google-scholar"><i class="bi bi-google"></i></a>
 
+      <!-- Class Schedule -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="Semester-item">
+          <h4>Class Schedule</h4>
+          <hr class="schedule-line">
+          <ul style="list-style-type: disc; padding-left: 20px;">
+            <li style="margin-bottom: 16px;">
+              <strong>Batches:</strong> 23I11, 23I12, 23J12, 23K11, 23C11, 23BM11, 23F11<br>
+              <strong>Day & Time:</strong> Monday: 14:00 – 15:00 (LT-2) | Tuesday: 14:00 – 15:00 (LT-3)
+            </li>
+            <li>
+              <strong>Batches:</strong> 23A17, 23A18, 23A19<br>
+              <strong>Day & Time:</strong> Friday: 14:00 – 15:00 (CR-2) | Saturday: 10:00 – 11:00 (CR-9)
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="">Sandeep
+
+      <!-- Instructors -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="Semester-item">
+          <h4>Instructors</h4>
+          <hr class="schedule-line">
+          <ul style="list-style-type: disc; padding-left: 20px;">
+            <li><strong>Dr. Kushal Kanwar</strong> <em>(KLK)(Course Coordinator)</em></li>
+            <li><strong>Mr. Sandeep Kumar Patel</strong> <em>(SKP)</em></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Syllabus -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="Semester-item">
+          <h4>Syllabus</h4>
+          <hr class="schedule-line">
+          <p>This is a <strong>2-0-0</strong> <em>(L–T–P)</em> course.</p>
+          <p>
+            <strong>Syllabus includes:</strong> Machine Learning Theoretical Foundations, PAC Learning, Rademacher Complexity and VC-Dimension, Supervised Learning, Bayesian Decision Theory, Decision Tree Learning, Support Vector Machine, Unsupervised Learning.
+             <a href="#" class="pdf-link" data-bs-toggle="modal" data-bs-target="#pdfModal" data-pdf="assets/pdf/18B1WCI634_Machine_Learning/ML_Syllabus.pdf" title="Preview PDF">
+                    <i class="bi bi-eye-fill text-primary fs-5"> </i>
+                  </a>
+                  <a href="assets/pdf/18B1WCI634_Machine_Learning/ML_Syllabus.pdf" download title="Download PDF">
+                    <i class="bi bi-download text-success fs-5"></i>
+                  </a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Text Books -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="Semester-item">
+          <h4>Text Books</h4>
+          <hr class="schedule-line">
+          <ol style="padding-left: 20px;">
+            <li>Tom M. Mitchell, <em>Machine Learning</em>, McGraw-Hill, 1997. ISBN: 0070428077.</li>
+            <li>Ethem Alpaydin, <em>Introduction to Machine Learning</em>, 2nd Edition, MIT Press.</li>
+            <li>Mehryar Mohri, Afshin Rostamizadeh, and Ameet Talwalkar, <em>Foundations of Machine Learning</em>, 2nd Edition, MIT Press.</li>
+          </ol>
+        </div>
+      </div>
+
+           <!-- Lecture Schedule -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="Semester-item">
+          <h4>Lecture Schedule</h4>
+          <hr class="schedule-line">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Topic</th>
+                <th class="text-center">Slides</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Machine Learning Marking Scheme</td>
+                <td class="text-center">
+                  <a href="#" class="pdf-link" data-bs-toggle="modal" data-bs-target="#pdfModal" data-pdf="assets/pdf/18B1WCI634_Machine_Learning/Machine_learning_Marking_Scheme.pdf" title="Preview PDF">
+                    <i class="bi bi-eye-fill text-primary fs-5"></i>
+                  </a>
+                  <a href="assets/pdf/18B1WCI634_Machine_Learning/Machine_learning_Marking_Scheme.pdf" download title="Download PDF">
+                    <i class="bi bi-download text-success fs-5"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>Machine Learning Theoretical Foundations</td>
+                <td class="text-center">
+                  <a href="#" class="pdf-link" data-bs-toggle="modal" data-bs-target="#pdfModal" data-pdf="assets/pdf/18B1WCI634_Machine_Learning/Machine_learning_Unit_1.pdf" title="Preview PDF">
+                    <i class="bi bi-eye-fill text-primary fs-5"></i>
+                  </a>
+                  <a href="assets/pdf/18B1WCI634_Machine_Learning/Machine_learning_Unit_1.pdf" download title="Download PDF">
+                    <i class="bi bi-download text-success fs-5"></i>
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- PDF Modal -->
+    <div class="modal fade" id="pdfModal" tabindex="-1" aria-labelledby="pdfModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="pdfModalLabel">Preview PDF</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <iframe src="" frameborder="0"></iframe>
+          </div>
+        </div>
       </div>
     </div>
 
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer light-background">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Sandeep</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://github.com/SandeepPatel95/" class="github"><i class="bi bi-github"></i></a>
+        <a href="http://linkedin.com/in/sandeeppatel95" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://twitter.com/__sandeep_patel" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://scholar.google.com/citations?user=f-tIJ7EAAAAJ&hl=en&oi=sra" class="google-scholar"><i class="bi bi-google"></i></a>
+      </div>
+      <div class="credits text-center">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="#">Sandeep</a>
+      </div>
+    </div>
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
+  <!-- Vendor JS -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -221,8 +264,26 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-  <!-- Main JS File -->
+  <!-- Main JS -->
   <script src="assets/js/main.js"></script>
+
+  <!-- PDF Modal Script -->
+  <script>
+    const pdfLinks = document.querySelectorAll('.pdf-link');
+    const pdfIframe = document.querySelector('#pdfModal iframe');
+
+    pdfLinks.forEach(link => {
+      link.addEventListener('click', function () {
+        const pdf = this.getAttribute('data-pdf');
+        pdfIframe.setAttribute('src', pdf);
+      });
+    });
+
+    const pdfModal = document.getElementById('pdfModal');
+    pdfModal.addEventListener('hidden.bs.modal', function () {
+      pdfIframe.setAttribute('src', '');
+    });
+  </script>
 
 </body>
 
