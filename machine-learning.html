@@ -96,10 +96,6 @@
 
 
 
-
-
-
-
   <!-- Main -->
   <main id="main">
 
@@ -117,12 +113,12 @@
           <hr class="schedule-line">
           <ul style="list-style-type: disc; padding-left: 20px;">
             <li style="margin-bottom: 16px;">
-              <strong>Batches:</strong> 23I11, 23I12, 23J12, 23K11, 23C11, 23BM11, 23F11<br>
-              <strong>Day & Time:</strong> Monday: 14:00 – 15:00 (LT-2) | Tuesday: 14:00 – 15:00 (LT-3)
+              <strong>Batches:</strong> 23C11,23J11, 23J12, 23K11, 23I11, 23I12, 23F11<br>
+              <strong>Day & Time:</strong> Tuesday: 15:00 – 16:00 (LT-3) | Friday: 14:00 – 15:00 (LT-2)
             </li>
             <li>
               <strong>Batches:</strong> 23A17, 23A18, 23A19<br>
-              <strong>Day & Time:</strong> Friday: 14:00 – 15:00 (CR-2) | Saturday: 10:00 – 11:00 (CR-9)
+              <strong>Day & Time:</strong> Wednesday: 09:00 – 10:00 (CR-9) | Friday: 12:00 – 13:00 (CR-1)
             </li>
           </ul>
         </div>
@@ -140,23 +136,132 @@
         </div>
       </div>
 
-      <!-- Syllabus -->
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="Semester-item">
-          <h4>Syllabus</h4>
-          <hr class="schedule-line">
-          <p>This is a <strong>2-0-0</strong> <em>(L–T–P)</em> course.</p>
-          <p>
-            <strong>Syllabus includes:</strong> Machine Learning Theoretical Foundations, PAC Learning, Rademacher Complexity and VC-Dimension, Supervised Learning, Bayesian Decision Theory, Decision Tree Learning, Support Vector Machine, Unsupervised Learning.
-             <a href="#" class="pdf-link" data-bs-toggle="modal" data-bs-target="#pdfModal" data-pdf="assets\pdf\18B1WCI634_Machine_Learning/ML_Syllabus.pdf" title="Preview PDF">
-                    <i class="bi bi-eye-fill text-primary fs-5"> </i>
-                  </a>
-                  <a href="assets\pdf\18B1WCI634_Machine_Learning/ML_Syllabus.pdf" download title="Download PDF">
-                    <i class="bi bi-download text-success fs-5"></i>
-                  </a>
-          </p>
-        </div>
-      </div>
+    <!-- Syllabus -->
+<div class="container" data-aos="fade-up" data-aos-delay="100">
+  <div class="Semester-item">
+
+    <h4>Syllabus</h4>
+    <hr class="schedule-line">
+
+    <p>This is a <strong>2-0-0</strong> <em>(L–T–P)</em> course.</p>
+
+    <ul style="list-style-type: disc; padding-left: 20px;">
+
+      <li>
+        <strong>Unit 1: Introduction</strong><br>
+        Learning systems and applications; Concept learning; Hypothesis space;
+        Version space; Candidate Elimination; Inductive bias.
+      </li>
+
+      <li>
+        <strong>Unit 2: Decision Tree Learning</strong><br>
+        Decision tree representation; Recursive tree induction; Entropy;
+        Information Gain; Overfitting; Pruning; Linear regression.
+      </li>
+
+      <li>
+        <strong>Unit 3: Artificial Neural Networks</strong><br>
+        Biological neuron model; Perceptron; Multilayer neural networks;
+        Backpropagation; Bayesian learning; Naive Bayes; Logistic regression.
+      </li>
+
+      <li>
+        <strong>Unit 4: Support Vector Machine</strong><br>
+        Support Vector Machine; Kernel function; Kernel SVM;
+        Instance-based learning; k-Nearest Neighbor algorithm.
+      </li>
+
+      <li>
+        <strong>Unit 5: Genetic Algorithm and Evolutionary Algorithms</strong><br>
+        Evolutionary computation; Hypothesis representation; Genetic operators;
+        Fitness function; Selection; Genetic search.
+      </li>
+
+      <li>
+        <strong>Unit 6: Clustering and Unsupervised Learning</strong><br>
+        Unsupervised learning; Hierarchical clustering; Agglomerative clustering;
+        k-means clustering; Expectation Maximization; Semi-supervised learning.
+      </li>
+    
+    <a href="#" class="pdf-link"
+       data-bs-toggle="modal"
+       data-bs-target="#pdfModal"
+       data-pdf="assets/pdf/18B1WCI634_Machine_Learning/ML_Syllabus.pdf"
+       title="Preview PDF">
+      <i class="bi bi-eye-fill text-primary fs-5">   </i>
+    </a>
+
+    <a href="assets/pdf/18B1WCI634_Machine_Learning/ML_Syllabus.pdf"
+       download title="Download PDF">
+      <i class="bi bi-download text-success fs-5">  </i>
+    </a>
+</ul>
+
+  </div>
+</div>
+
+<!-- Syllabus for TEST-1 Examination -->
+<div class="container" data-aos="fade-up" data-aos-delay="100">
+  <div class="Semester-item">
+    
+    <h4>Syllabus for TEST-1 Examination</h4>
+    <hr class="schedule-line">
+
+    <h5><strong>Unit 1</strong></h5>
+
+    <ol style="padding-left: 20px;">
+      <li>
+        <strong>Introduction</strong>
+        <ul>
+          <li>Definition of learning systems</li>
+          <li>Goals and applications of machine learning</li>
+          <li>Aspects of developing a learning system:
+            <ul>
+              <li>Training data</li>
+              <li>Concept representation</li>
+              <li>Function approximation</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <strong>Inductive Classification</strong>
+        <ul>
+          <li>The concept learning task</li>
+          <li>Concept learning as search through a hypothesis space</li>
+          <li>General-to-specific ordering of hypotheses</li>
+          <li>Finding maximally specific hypotheses</li>
+          <li>Version spaces</li>
+          <li>Candidate elimination algorithm</li>
+          <li>Learning conjunctive concepts</li>
+          <li>Importance of inductive bias</li>
+        </ul>
+      </li>
+
+      <li>
+        <strong>Information Theory</strong>
+        <ul>
+          <li>Entropy</li>
+          <li>Cross-Entropy</li>
+          <li>KL-Divergence</li>
+        </ul>
+      </li>
+ <li>
+        <strong>Loss Functions</strong>
+        <ul>
+          <li>Regression</li>
+          <li>Classification</li>
+   
+        </ul>
+      </li>
+
+    </ol>
+
+  </div>
+</div>
+
+
 
       <!-- Text Books -->
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -167,6 +272,7 @@
             <li>Tom M. Mitchell, <em>Machine Learning</em>, McGraw-Hill, 1997. ISBN: 0070428077.</li>
             <li>Ethem Alpaydin, <em>Introduction to Machine Learning</em>, 2nd Edition, MIT Press.</li>
             <li>Mehryar Mohri, Afshin Rostamizadeh, and Ameet Talwalkar, <em>Foundations of Machine Learning</em>, 2nd Edition, MIT Press.</li>
+            <li> Shai Ben-David, <em> Understanding Machine Learning: From Theory to Algorithms </em> 1st Edition, Cambridge University Press.</li>
           </ol>
         </div>
       </div>
@@ -218,8 +324,35 @@
                   </a>
                 </td>
               </tr>
+
+<tr>
+                <td>Unit-1: Information Theory </td>
+                <td class="text-center">
+                  <a href="#" class="pdf-link" data-bs-toggle="modal" data-bs-target="#pdfModal" data-pdf="assets/pdf/18B1WCI634_Machine_Learning/Entropy__Cross_Entropy__KL_Divergence.pdf" title="Preview PDF">
+                    <i class="bi bi-eye-fill text-primary fs-5"></i>
+                  </a>
+                  <a href="assets/pdf/18B1WCI634_Machine_Learning/Entropy__Cross_Entropy__KL_Divergence.pdf" download title="Download PDF">
+                    <i class="bi bi-download text-success fs-5"></i>
+                  </a>
+                </td>
+              </tr>
+
+<tr>
+                <td>Unit-1: Loss Function </td>
+                <td class="text-center">
+                  <a href="#" class="pdf-link" data-bs-toggle="modal" data-bs-target="#pdfModal" data-pdf="assets/pdf/18B1WCI634_Machine_Learning/Loss_Function_Unit_1.pdf" title="Preview PDF">
+                    <i class="bi bi-eye-fill text-primary fs-5"></i>
+                  </a>
+                  <a href="assets/pdf/18B1WCI634_Machine_Learning/Loss_Function_Unit_1.pdf" download title="Download PDF">
+                    <i class="bi bi-download text-success fs-5"></i>
+                  </a>
+                </td>
+              </tr>
+
+
+
 		<tr>
-                <td>ML Assignment-1</td>
+                <td>ML Assignment-1 (Due Date: 07th Feb, 2026)</td>
                 <td class="text-center">
                   <a href="#" class="pdf-link" data-bs-toggle="modal" data-bs-target="#pdfModal" data-pdf="assets/pdf/18B1WCI634_Machine_Learning/ML_Assignment_1.pdf" title="Preview PDF">
                     <i class="bi bi-eye-fill text-primary fs-5"></i>
